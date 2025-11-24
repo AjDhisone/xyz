@@ -20,7 +20,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const issueRoutes = require('./routes/issueRoutes');
+const issueRoutes = require('./routes/IsueRoutes');
 app.use('/api/issues', issueRoutes);
 
 // Mount existing user routes under both /api/users and /api/auth to match ARCHITECTURE.md
